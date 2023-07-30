@@ -22,7 +22,7 @@ def encrypt(msg,key):
                 enc += chr(((ord(i)-97+key) % 26) + 97)
                 
     print('Encrypted Text: ', enc)
-    decrypt(enc,key)
+
 
 def decrypt(msg,key):
     dec = ''
